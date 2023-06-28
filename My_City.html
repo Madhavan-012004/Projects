@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            My City
+        </title>
+        <style>
+            #blink {
+                font-size: 20px;
+                font-weight: bold;
+                color: #2d38be;
+                transition: 0.5s;
+            }
+        </style>
+
+    </head>
+    <body style="background-image: url(https://chennaitourism.travel/images/places-to-visit/headers/marina-beach-chennai-tourism-entry-fee-timings-holidays-reviews-header.jpg);background-repeat: no-repeat;
+    background-attachment: fixed;background-size: 100% 100%; "><center>
+        <p style="color: blue; font-size: 50px;"><b>CHENNAI</b> </p><br>
+        <p style="color:rgb(255, 0, 0); font-size: 20px;"> <b>ANNA NAGAR</b></p>
+        <P style="color: green;"><b>KOYAMBEDU</b></P>
+        <p style="color: orange;"><b>EGMORE</b></p>
+        <p style="color: red;"><b>VILLIVAKKAM</b></p>
+        <p style="color: yellow;"><b>AVADI</b></p><br>
+        <p id="blink">VELTECH HIGHTECH ENGINEERING COLLEGE</p>
+    <script type="text/javascript">
+        var blink = document.getElementById('blink');
+        setInterval(function() {
+            blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);
+        }, 1500);
+    </script>
+        <form>
+            <input type="text" id="1" placeholder="Eg:AVADI">
+        </form><br>
+
+        <marquee style="color: rgb(0, 140, 255); font-size: xx-large; font-family: 'Times New Roman', Times, serif;" behavior="scroll" direction="right" scrollamount="10">THIS IS MADE BY BATCH 17.</marquee>
+    </body>
+</html>
